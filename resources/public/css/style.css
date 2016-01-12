@@ -1,0 +1,59 @@
+/* some style */
+
+.subunit.SCT { fill: #ddc; }
+.subunit.WLS { fill: #cdd; }
+.subunit.NIR { fill: #cdc; }
+.subunit.ENG { fill: #dcd; }
+.subunit.IRL { display: none; }
+
+.subunit-boundary {
+    fill: none;
+    stroke: #eee8d5;
+    stroke-dasharray: 2,2;
+    stroke-linejoin: round;
+}
+
+.subunit-boundary.IRL {
+    stroke: #aaa;
+}
+
+.place .place-label {
+    fill: #444;
+}
+
+.subunit-label {
+    fill: #777;
+    fill-opacity: .5;
+    font-size: 20px;
+    font-weight: 300;
+    text-anchor: middle;
+}
+
+text {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    pointer-events: none;
+}
+
+.graticule {
+    fill: none;
+    stroke: #d33682;
+    stroke-width: .5px;
+    stroke-opacity: 0.5;
+}
+
+
+.stroke {
+    fill: none;
+    stroke: #002b36;
+    stroke-width: 3px;
+}
+
+.fill {
+    fill: #93a1a1;
+}
+
+.land {
+    fill: #002b36;
+}
+
